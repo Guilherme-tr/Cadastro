@@ -98,23 +98,24 @@
         android:layout_height="wrap_content"
         android:entries="@array/opcoes" />
 
-    <Button
-        android:id="@+id/botaoClear"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="100dp"
-        android:text="Limpar"
-        android:layout_gravity="start"
-        android:textAllCaps="false" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
 
-    <Button
-        android:id="@+id/botaoSave"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="100dp"
-        android:layout_gravity="end"
-        android:text="Salvar"
-        android:textAllCaps="false" />
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="Limpar" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="Salvar" />
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
 
 
 </LinearLayout>
