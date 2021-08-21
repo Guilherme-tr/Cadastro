@@ -6,6 +6,12 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
+
+
+    private void limparForm(){
+
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
